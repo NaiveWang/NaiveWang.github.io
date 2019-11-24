@@ -1,9 +1,14 @@
 ## Naive Wang's Nowhere Land
 
+#### 几首当代诗（摘抄
+
+* [001](https://github.com/NaiveWang/Just_for_Fun/blob/dev/deep_learning/contemporary_poetry_001.html)
+* [002](https://github.com/NaiveWang/Just_for_Fun/blob/dev/deep_learning/contemporary_poetry_002.html)
+
 #### Douban Backup
 
-* [老丁](Douban/2019-11-24-14.md) 2019-11
-* [语义，等价，二义性](Douban/2017-05-13-19.md) 2017-05
+* [老丁](/Douban/2019-11-24-14.md) 2019-11
+* [语义，等价，二义性](/Douban/2017-05-13-19.md) 2017-05
 
 #### Qzone Backup
 
