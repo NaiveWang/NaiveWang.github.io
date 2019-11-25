@@ -1,6 +1,7 @@
 
 #### 几首当代诗（摘抄
 
+* [前言](contemporary/intro.md)
 * [001](contemporary/001.html)
 * [002](contemporary/002.html)
 
