@@ -1,4 +1,3 @@
-## Naive Wang's Nowhere Land
 
 #### 几首当代诗（摘抄
 
