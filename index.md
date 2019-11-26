@@ -5,6 +5,10 @@
 * [001](contemporary/001.html)
 * [002](contemporary/002.html)
 
+#### 走过来 走过去 没有根据地
+
+* [Intro](posts/2019-11-26-10.md)
+
 #### Douban Backup
 
 * [老丁](Douban/2019-11-24-14.md) 2019-11
