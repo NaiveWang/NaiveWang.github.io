@@ -9,12 +9,12 @@
 
 * [Intro](posts/2019-11-26-10.md)
 
-#### Douban Backup
+#### Douban Port
 
 * [老丁](Douban/2019-11-24-14.md) 2019-11
 * [语义，等价，二义性](Douban/2017-05-13-19.md) 2017-05
 
-#### Qzone Backup
+#### Qzone Port
 
 * [沉溺](Qzone/2016-06-24-16.md) 2016-06
 * [Whiplash](Qzone/2016-01-01-11.md) 2016-01
