@@ -21,6 +21,7 @@
 * [0x08](mverse/0x08.md) 2019-11
 * [0x09](mverse/0x09.md) 2019-11
 * [0x0a](mverse/0x0a.md) 2019-11
+* [0x0b](mverse/0x0b.md) 2019-11
 
 #### Douban Port
 
