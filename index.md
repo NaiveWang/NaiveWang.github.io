@@ -2,8 +2,8 @@
 #### 几首当代诗（摘抄
 
 * [前言](contemporary/intro.md)
-* [001](contemporary/001.html)
-* [002](contemporary/002.html)
+* [001](contemporary/001.html) 请将网页放大到200%欣赏
+* [002](contemporary/002.html) 请将网页放大到150%欣赏
 
 #### 走过来 走过去 没有根据地
 
