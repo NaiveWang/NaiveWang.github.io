@@ -9,6 +9,7 @@
 
 * [Intro](posts/2019-11-26-10.md) 2019-11
 * [201Q年的一些经历和感想](posts/2019-11-30-q.md) 2019-11
+* [An English Essay about English](posts/2019-11-english.md) 2019-11
 
 #### 几首现代诗
 
