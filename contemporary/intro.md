@@ -26,5 +26,5 @@
 
 *Nov, 25, 2019, freezing Beijing, Elvin Wang.*
 
-* [001](contemporary/001.html) 请将网页放大到200%欣赏
-* [002](contemporary/002.html) 请将网页放大到150%欣赏
+* [001](001.html) 请将网页放大到200%欣赏
+* [002](002.html) 请将网页放大到150%欣赏
