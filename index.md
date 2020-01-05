@@ -14,6 +14,7 @@
 
 *Nov，26，2019 Elvin Wang，Beijing*
 
+* [格利高里神父](posts/2020-01-05-hl2.md) 2020-01
 * [花朵快快长](posts/2019-12-21-none.md) 2019-12
 * [201Q年的一些经历和感想](posts/2019-11-30-q.md) 2019-11
 * [An English Essay about English](posts/2019-11-english.md) 2019-11
