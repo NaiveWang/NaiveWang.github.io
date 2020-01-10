@@ -1,12 +1,12 @@
-# 计划 `2020-01-05`
+# 计划 `2020-01-10`
 
 >Goal: keeping daily progress or finding new motivation
 
 >Status: high sex drive, in progress, low motivation, in fit.
 
-* 戒酒 -> 在想喝的时候保证身边没有 `tainted : 0.6 vodka(moskovskaya)`
+* 戒酒 -> 在想喝的时候保证身边没有 `valid`
 
-* jack off less -> encryption with passcode on paperback(>32B) `64B, valid, contended (!)`
+* jack off less -> encryption with passcode on paperback(>32B) `64B, violated`
 
 * leetcode -> 600(C) `92/600`
 
@@ -26,9 +26,9 @@
 
 * *Solaris* `novel` `153/208`
 
-* *C Programming Language* `NaN`
+* *C Programming Language* `39/238`
 
-* *C++ Primer Plus* `NaN`
+* *C++ Primer Plus* `109/1438`
 
 ## TODO
 
