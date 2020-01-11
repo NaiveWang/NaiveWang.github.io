@@ -1,16 +1,16 @@
-# 计划 `2020-01-10`
+# 计划 `2020-01-11`
 
 >Goal: keeping daily progress or finding new motivation
 
->Status: high sex drive, in progress, low motivation, in fit.
+>Status: in progress, high motivation, in fit.
 
 * 戒酒 -> 在想喝的时候保证身边没有 `valid`
 
-* jack off less -> encryption with passcode on paperback(>32B) `64B, violated`
+* jack off less -> encryption with passcode on paperback(>32B) `64B, decrypted`
 
 * leetcode -> 600(C) `92/600`
 
-* Mine BTC(>0.02) with free eletricity `0.00385811/0.02`
+* Mine BTC(>0.02) with free eletricity `0.00471173/0.02`
 
 #### Books
 
@@ -24,18 +24,18 @@
 
 * *Automata Theory, Language and Computation* `NFA`
 
-* *Solaris* `novel` `153/208`
-
-* *C Programming Language* `39/238`
+* *C Programming Language* `41/238`
 
 * *C++ Primer Plus* `109/1438`
 
+* *Cyberia* `7/225`
+
 ## TODO
-
-
 
 * 重写wifi驱动, 搞瘫痪办公室的无线信号 `scheduled`
 
 * 学车 `scheduled`
 
 ## DONE
+
+* *Solaris* `novel` `2020-01-11`
