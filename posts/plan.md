@@ -6,13 +6,17 @@
 
 * 戒酒 -> 在想喝的时候保证身边没有 `valid`
 
-* jack off less -> encryption with passcode on paperback(>32B) `64B, decrypted`
+* jack off less -> encryption with passcode on paperback(>32B) `64B, valid`
 
 * leetcode -> 600(C) `92/600`
 
-* Mine BTC(>0.02) with free eletricity `0.00471173/0.02`
+* Mine BTC(>0.02) with free eletricity `0.00515584/0.02`
 
 #### Books
+
+* *C Programming Language* `90/238`
+
+* *Cyberia* `30/225`
 
 * *Mathematical Logic* `II $5`
 
@@ -24,11 +28,7 @@
 
 * *Automata Theory, Language and Computation* `NFA`
 
-* *C Programming Language* `41/238`
-
 * *C++ Primer Plus* `109/1438`
-
-* *Cyberia* `7/225`
 
 ## TODO
 
