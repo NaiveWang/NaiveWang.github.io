@@ -1,22 +1,20 @@
-# 计划 `2020-01-13`
+# 计划 `2020-01-16`
 
 >Goal: keeping daily progress or finding new motivation
 
 >Status: in progress, high motivation, in fit.
 
-* 戒酒 -> 在想喝的时候保证身边没有 `valid`
+* leetcode -> 600(C) `100/600`
+
+* Mine BTC(>0.02) with free eletricity `0.00586876/0.02`
+
+* 戒酒 -> 在想喝的时候保证身边没有 `tainted`
 
 * jack off less -> encryption with passcode on paperback(>32B) `64B, valid`
 
-* leetcode -> 600(C) `92/600`
-
-* Mine BTC(>0.02) with free eletricity `0.00515584/0.02`
-
 #### Books
 
-* *C Programming Language* `90/238`
-
-* *Cyberia* `30/225`
+* *Cyberia* `62/225`
 
 * *Mathematical Logic* `II $5`
 
@@ -37,5 +35,7 @@
 * 学车 `scheduled`
 
 ## DONE
+
+* *C Programming Language* `2020-01-16`
 
 * *Solaris* `novel` `2020-01-11`
