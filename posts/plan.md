@@ -1,20 +1,22 @@
-# 计划 `2020-01-16`
+# 计划 `2020-01-29`
 
 >Goal: keeping daily progress or finding new motivation
 
->Status: in progress, high motivation, in fit.
+>Status: not in progress, mid motivation, in fit.
 
 * leetcode -> 600(C) `100/600`
 
-* Mine BTC(>0.02) with free eletricity `0.00586876/0.02`
+* Mine BTC(>0.02) with free eletricity `0.00914215/0.02`
 
-* 戒酒 -> 在想喝的时候保证身边没有 `tainted`
+* 戒酒 -> 在想喝的时候保证身边没有 `家里有好酒，但是吃了抗生素不能喝，valid`
 
-* jack off less -> encryption with passcode on paperback(>32B) `64B, valid`
+* jack off less -> encryption with passcode on paperback(>32B) `64B, tainted`
 
 #### Books
 
-* *Cyberia* `62/225`
+* *Cyberia* `116/225`
+
+* *Automata Theory, Language and Computation* `Regular Expression`
 
 * *Mathematical Logic* `II $5`
 
@@ -23,8 +25,6 @@
 * *Computer Networks* `34.93%`
 
 * *Linux Kernel Development* `10.1%`
-
-* *Automata Theory, Language and Computation* `NFA`
 
 * *C++ Primer Plus* `109/1438`
 
