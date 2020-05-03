@@ -1,218 +1,111 @@
 
-> 不该少于两万五，不，肯定超过两万八。 -- 陀氏《卡拉马佐夫兄弟》
+> 甜桶圆，甜桶扁，甜桶变天眼。 -- 《天眼小神童》，发正念
 
-# 首页暂时不放东西，给你们看看我的漂亮代码
-
-> 这是前一阵帮别人做的控制原理的作业题
-
+# 一首现代诗0x17
 ```
-
-#include <stdio.h>
-#include <stdlib.h>
-
-#define ITERATION 1000
-
-/*
- * Note:
- * matrix utils maybe compromised if their size does no match.
- **/
-
-typedef struct matrix {
-  unsigned int scale;
-  double **cell;
-} m_t;
-
-m_t* m_new(unsigned int scale) {
-  //allocate
-  m_t *new;
-
-  new = malloc(sizeof(m_t));
-  new->scale = scale;
-  new->cell = malloc(sizeof(double*) * scale);
-
-  while (scale--) {
-    new->cell[scale] = malloc(sizeof(double) * new->scale);
-  }
-
-  return new;
-}
-m_t* m_read() {
-  //read first integer
-  int scale;
-  m_t *new;
-
-  scanf("%d", &scale);
-  new = m_new(scale);
-
-  //read value
-  unsigned int i, j;
-
-  for (i = 0; i < scale; i++) {
-    for (j = 0; j < scale; j++) {
-      //read each value
-      scanf("%lf", new->cell[i] + j);
-    }
-  }
-  return new;
-}
-void m_delete(m_t *m) {
-  //deallocate
-  while (m->scale--) {
-    free(m->cell[m->scale]);
-  }
-  free(m->cell);
-  free(m);
-}
-
-
-void m_I(m_t *m) {
-  //matrix I initializer
-  unsigned int i, j;
-  for (i = 0; i < m->scale; i++) {
-    for (j = 0; j< m->scale; j++) {
-      if (i == j)
-        m->cell[i][j] = 1.;
-      else
-        m->cell[i][j] = 0.;
-    }
-  }
-}
-void m_0(m_t *m) {
-  //matrix I initializer
-  unsigned int i, j;
-  for (i = 0; i < m->scale; i++) {
-    for (j = 0; j< m->scale; j++) {
-      m->cell[i][j] = 0.;
-    }
-  }
-}
-void m_add(m_t *m1, m_t *m2, m_t * m_desc) {
-  // check if their size is mismatched
-  if (m1->scale != m2->scale || m1->scale != m_desc->scale)
-    return;
-
-  unsigned int i, j;
-
-
-  //add m1, m2 to m_desc
-  for (i = 0; i < m1->scale; i++) {
-    for (j = 0; j< m1->scale; j++) {
-      m_desc->cell[i][j] = m1->cell[i][j] + m2->cell[i][j];
-    }
-  }
-}
-void m_multi(m_t *m_l, m_t *m_r, m_t *m_desc) {
-  //fused multiple & add: m := m + mLeft * mRight
-  unsigned int i, j;
-  for (i = 0; i < m_desc->scale; i++) {
-    for (j = 0; j< m_desc->scale; j++) {
-      // for each cell
-      unsigned int k;
-
-      //purge value
-      m_desc->cell[i][j] = 0.;
-
-      for (k = 0; k < m_desc->scale; k++) {
-        // add value to desc
-        m_desc->cell[i][j] += m_l->cell[i][k] * m_r->cell[k][j];
-      }
-    }
-  }
-}
-void m_scalar(m_t *m, m_t *m_desc, double scalar) {
-  // matrix scalar multiplication.
-  unsigned int i, j;
-
-  for (i = 0; i < m->scale; i++) {
-    for (j = 0; j< m->scale; j++) {
-      // for each cell
-      m_desc->cell[i][j] = m->cell[i][j] * scalar;
-    }
-  }
-}
-void m_dump(m_t *m) {
-  //print matrix
-  unsigned int i, j;
-
-  for (i = 0; i < m->scale; i++) {
-    for (j = 0; j< m->scale; j++) {
-      printf("%lf ", m->cell[i][j]);
-    }
-    printf("\n");
-  }
-  printf("\n");
-}
-
-int main(void) {
-  double t, divisor, scalar;
-  m_t *A, *A_k[2], *A_k_scalar, *e_At;
-  int i;
-
-  // read t
-  scanf("%lf", &t);
-
-  // read matrix A
-  A = m_read();
-
-  // allocate matrix A_k slipper
-  A_k[0] = m_new(A->scale);
-  A_k[1] = m_new(A->scale);
-
-  // initialize first slipper A^k 1
-  m_I(A_k[1]);
-
-  // allocate pipline A^k with scalar
-  A_k_scalar = m_new(A->scale);
-
-  // allocate matrix e^At and initialize it as I
-  e_At = m_new(A->scale);
-  m_I(e_At);
-
-  // initialize scalar & divisor
-  divisor = 1.;
-  scalar = t;
-
-  // main iteration
-  for (i = 0; i < ITERATION; i++) {
-    // for each term
-    // calculate A^k
-    m_multi(A_k[(i + 1) & 1], A, A_k[i & 1]);
-
-    //calculate A^k with scalar (term k)
-    m_scalar(A_k[i & 1], A_k_scalar, scalar);
-
-    // add A^k to e_At
-    m_add(A_k_scalar, e_At, e_At);
-
-    // compute next scalar
-    divisor += 1;
-    scalar *= t;
-    scalar /= divisor;
-
-  }
-
-  // print sum
-  printf("Sum of %d loop:\n", ITERATION);
-  m_dump(e_At);
-
-  // calculate "ITERATION + 1" th term.
-  m_multi(A_k[(i + 1) & 1], A, A_k[i & 1]);
-  m_scalar(A_k[i & 1], A_k_scalar, scalar);
-
-  printf("%d th term:\n", ITERATION + 1);
-  m_dump(A_k_scalar);
-
-  // deallocate memory
-  m_delete(A);
-  m_delete(A_k[0]);
-  m_delete(A_k[1]);
-  m_delete(A_k_scalar);
-  m_delete(e_At);
-  return 0;
-}
-
-
+我平时喜欢焊点东西，
+我沉迷焊东西，就是个焊疯子！
+我不光在焊点上焊，
+还在不锈钢上焊，
+在耐热塑料上焊，
+在小树苗上焊，
+在马里亚纳海沟焊，
+还在臭氧层的破洞旁边焊！
 ```
+```
+我只管焊，
+我不管焊的是谁的东西；
+什么身份阶级，
+什么社会地位，
+什么肤色种族，
+我都胆大包天地焊，
+充满热爱、动情地焊，
+不顾一切玩命地焊！
+```
+```
+我给吃不上饭的焊，
+给没见过世面的小公子哥焊，
+给已经活成一尊雕像的焊，
+给不知道自己应该成为谁的焊！
+```
+```
+我还给江泽民焊，
+给胡锦涛焊，
+给他妈的习近平，
+也照样他妈的焊！
+不光这几个，
+我的客户遍天下，
+给民主国家的，
+独裁国家的，
+给没有网线的北朝鲜三代死了俩的领导人们焊！
+还给无政府主义者焊，
+给三合大神焊，
+给垮掉的一代焊，
+给含着炸弹引信的穆斯林焊，
+给那些未开化的遥远部落焊，
+给那些国际法庭上即将被处决的王八蛋们焊！
+```
+```
+别以为我就这点胆儿，
+我还给刚被割开驼峰取水的骆驼焊，
+给没装进豆豉的鲮鱼焊，
+给屠宰场正在排队等号的牛焊
+给在紫外线灯上冒着烟，
+正在垂死的小苍蝇焊！
+还给水里转瞬即逝的单细胞生物焊！
+甚至我还敢给没有生命的东西焊：
+我给杜尚的小便池子焊
+给每一个一块钱钢蹦焊，
+给每一个出膛的子弹焊，
+给每一个被抛弃的，
+淡出人类视野的太空碎片焊！
+```
+```
+你以为这就完了？
+我还敢给没有实体的东西焊！
+我给你的小心眼焊，
+给愚蠢的大众舆论焊，
+给各式各样千奇百怪的思想焊！
+```
+```
+给伟大焊，
+给渺小焊，
+给智慧焊，
+给鲁莽焊，
+给谬误焊，
+给真理焊，
+给标准答案焊，
+给免费补考焊，
+给道貌岸然焊，
+给吃铁丝拉笊篱焊
+给深爱焊，
+给恶毒焊，
+给情投意合焊，
+给老死不相往来焊，
+给夸夸其谈焊，
+给那些不能说出来的话语，统统地焊！
+给高斯消元焊，
+给希尔伯特大饭店焊，
+给图灵等价焊，
+给费马小定理焊，
+给被证明无法证明的停机问题焊，
+给我们的认知之外的那些东西焊！
+```
+```
+给上帝焊，
+给上帝死了焊，
+给舍不得上帝的绝望焊，
+给通过无神论骗取蝇头小利的卑鄙计俩焊！
+```
+```
+最后，
+我焊完这些东西，
+用光了所有的锡，
+应该就不沉迷焊东西了，
+也自然而然的，
+不会沉迷任何东西了。
+```
+（我馋豆豉鲮鱼罐头了，口水已经把牙膏味冲刷干净）
 
 * [对影评的一些疑问](posts/2020-03-11-mreview.md)
 * [散文诗 20200213](posts/2020-02-13-v.md)
