@@ -10,6 +10,8 @@
 
 ### [有关小王真实姓名的探讨：王一（bar）、王。（dot）、王|（foo）和王～（gay）](rabble_wang/name.md)
 
+> 声明：我和她好了。
+
 ### [DKMS 20200428（小王）](rabble_wang/dkms-20200428.md)
 
 ### [Core Dump 20200428（小王）](rabble_wang/coredump-20200428.md)
