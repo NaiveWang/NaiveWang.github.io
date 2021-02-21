@@ -1,13 +1,22 @@
-# 一首现代诗0x0c
+# Stochastic Process (Rabble Wang)
 
-> 你们觉的计算机代码是
+> Rabble Wang is eating food at restaurant.
 
-> 秩序
+> Rabble Wang is eating food at stochastic restaurant.
 
-> 还是
+> Rabble Wang is eating stochastic food at stochastic restaurant.
 
-> 诗
+> Stochastic Rabble Wang is eating stochastic food at stochastic restaurant.
 
+> Stochastic Rabble Wang is doing stochastic shit or something at stochastic somewhere.
+
+> Stochastic Rabble stochastic last name is doing stochastic something at stochastic somewhere.
+
+> Stochastic someone else is doing stochastic something at stochastic somewhere.
+
+> Stochastic nobody is doing stochastic nothing at stochastic nowhere.
+
+* [戒酒日记](posts/rehab.md) rolling
 * [自杀留言板](posts/2021-02-suicide.md)
 * [普鲁斯特问卷2021](posts/2021-02-q.md) 2021-02
 * [怎样使用淘宝](posts/2020-01-taobao.md) 2020-01 `作者这个大傻逼还以为没到2021`
