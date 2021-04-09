@@ -6,5 +6,5 @@ This column is dedicated to my perfession as a developer. Last year I finally op
 
 * [Installation Guide of Arch Linux on Laptops for Deep Learning(NVIDIA)](posts_tech/2019-12-15-12.md)
 * [My Hackerrank Solution of *Swap Nodes [Algo]*](posts_tech/2021-03-17-hkrk.md)
-
+* [My Hackerrank Solution of *Square-Ten Tree*](posts_tech/2021-04-09-hkrk.md)
 ## Theory
