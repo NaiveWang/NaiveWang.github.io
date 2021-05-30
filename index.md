@@ -1,4 +1,4 @@
-Hi everyone! I have shifted from obsolete ratebeer to the more laypeople-friendly platform [untapped](https://untappd.com/user/elvinw), add me if you are also a beer enthusiastic!
+Hi everyone! I have shifted from obsolete ratebeer to the more laypeople-friendly platform [untapped](https://untappd.com/user/elvinw), add me if you are also a beer enthusiast!
 
 > [*nervous doggo*](https://www.youtube.com/watch?v=PTQzCmzH2UM)
 
@@ -8,7 +8,7 @@ Hi everyone! I have shifted from obsolete ratebeer to the more laypeople-friendl
 
 我醒了过来，想起她，想起锦州烤串，想起家里人，我觉得对锦州烤串还抱有幻想。我甚至有点恍惚，回忆梦境的过程让我同时回忆起其它的梦，它们在追忆时连成了一整段时空，这让我分不清哪个是现实。绝对的现实之中我可能从来没吃锦州烤串，也可能吃烤串的感觉根本不是梦里那种滋味，也可能我那个分手的女朋友从来没和我好过。绝对的现实什么都没有，认知之内的只不过是自身希求的幻觉，我想要烤串，于是有了锦州烤串，我想要她别走，于是她被我封存起来，我想让我奶奶看到我饮食均衡，所以有了香菇豆腐烤串。精神恍惚的我躺在床上，这样想着。但那个苍蝇小馆的落地玻璃大得离谱，它为什么这么大呢？我又没期待过一个窗户要变得那么大，大得占据了我的整个注意力。回想这些东西时我觉得脑子很累。什么都想不出来，躺在床上，阳光把窗帘照亮，我想继续睡过去。
 
-(完) 2021-05-30, got vaccined. 
+(完) 2021-05-30, got vaccined.
 
 * [戒酒日记](posts/rehab.md) deprecated
 * [火龙果汁](posts/2021-05-13-dragonfruit.md) 2021-05
