@@ -82,7 +82,7 @@ Hi everyone! I have shifted from obsolete ratebeer to the more laypeople-friendl
 
 > 回家收拾行李去了
 
-* [锦州小串](posts/2022-05-bbq.md) 2021-05
+* [锦州小串](posts/2021-05-bbq.md) 2021-05
 * [火龙果汁](posts/2021-05-13-dragonfruit.md) 2021-05
 * [梦](posts/2021-02-22-dream.md) 2021-02
 * [自杀留言板](posts/2021-02-suicide.md) 2021-02
