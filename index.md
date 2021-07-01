@@ -16,9 +16,9 @@ Hi everyone! I have shifted from obsolete ratebeer to the more laypeople-friendl
 
 [第33集×Beavis and Butthead](https://youtu.be/fVPV0Rxu0Qo)
 
-[第34集](https://youtu.be/m7a7GSMwq9A)
+[第34集（部分）](https://youtu.be/m7a7GSMwq9A)
 
-[第40-42集剧终]()  `待上传`
+[第40-42集剧终](https://youtu.be/tYz3rp4qQ7w) `由于版权保护政策，某些地区无法观看`
 
 ---
 
