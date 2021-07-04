@@ -1,27 +1,10 @@
 Hi everyone! I have shifted from obsolete ratebeer to the more laypeople-friendly platform [untapped](https://untappd.com/user/elvinw), add me if you are also a beer enthusiast!
 
-# 欢乐颂（中国大陆电视剧）剧评
-
-最近在看*Beavis and Butthead*，这个美国动画并不是传统的叙事，而是中间穿插了一些MTV，Beavis和Butthead坐在沙发上点评和傻笑着评论他们正在看的MTV，这也是评论的一种形式。因此本剧评的形式以本人活体评论视频为主，豆瓣的短评被审查。文字部分我说了什么呢？我说：撇开“国家资本主义下的上海屁民”、“拜金”以及“内容干瘪”之外，最后的逻辑实在说不通。这个电视剧努力地讲述了一个人类吃屎的故事，你在这只能吃屎，最终战胜了自己，习惯了吃屎，然后告诉大家吃屎很辛苦，但我们痛并快乐着呀，我们必须通过承认屎是好吃的来得到快感。问题在于，我不吃屎，我对吃屎这个事情本身感到质疑。因此我不觉得这是个好的电视剧。它很烂，是屎。
-
-以下是部分视频部分。由于电视剧实在冗长无聊，只做了部分集数。
-
-[第18集（部分）](https://youtu.be/QKUE-8BZ_uY)
-
-[第19集](https://youtu.be/CfEvb-N56Is)
-
-[第20集](https://youtu.be/alGrwZqh9OU)
-
-[第21集](https://youtu.be/VDn6Zhs9LDs)
-
-[第33集×Beavis and Butthead](https://youtu.be/fVPV0Rxu0Qo)
-
-[第34集（部分）](https://youtu.be/m7a7GSMwq9A)
-
-[第40-42集剧终](https://youtu.be/tYz3rp4qQ7w) `由于版权保护政策，某些地区无法观看`
+# 远离精神残障人士
 
 ---
 
+* [欢乐颂（中国大陆电视剧）剧评](2021-06-tv.md) 2021-06
 * [活着，然后活得更好](posts/2021-06-motiv.md) 2021-06
 * [25岁的我在月光下跳舞](posts/2021-06-25.md) 2021-06
 * [锦州小串](posts/2021-05-bbq.md) 2021-05
