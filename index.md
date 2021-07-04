@@ -2,6 +2,8 @@ Hi everyone! I have shifted from obsolete ratebeer to the more laypeople-friendl
 
 # 远离精神残障人士
 
+蚊子才是人类最好的朋友。狗没了人，会变成野狗，变成狼，但蚊子没了人，只能饿死。而人没了蚊子，很多人会失业。
+
 ---
 
 * [欢乐颂（中国大陆电视剧）剧评](2021-06-tv.md) 2021-06
