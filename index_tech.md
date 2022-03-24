@@ -8,4 +8,5 @@ This column is dedicated to my profession as a developer. Last year I finally op
 * [My Hackerrank Solution of *Swap Nodes [Algo]*](posts_tech/2021-03-17-hkrk.md)
 * [My Hackerrank Solution of *Square-Ten Tree*](posts_tech/2021-04-09-hkrk.md)
 * [Elvin's C Quiz](posts_tech/elvin-s-c-quiz.md)
+* [Hackerrank Problem Solving (Intermediate) Certificate Q2](posts_tech/2022-03-24-hkrk.md)
 ## Theory
