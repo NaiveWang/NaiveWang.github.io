@@ -85,6 +85,8 @@
 
 ---
 
+## Non-tech
+
 * [梦 - 上海往事](posts/2022-11-19-dream.md) 2022-11
 * [梦 - 戴维](posts/2022-04-06-dream.md) 2022-04
 * [梦 - 裂缝](posts/2022-03-19-dream.md) 2022-03
@@ -124,12 +126,24 @@
 * [An English Essay about English](posts/2019-11-english.md) 2019-11
 * [Jupiter and Beyond the Infinite/木星以及超越一切苍穹](posts/2019-11-26-idx.md) 2019-11
 
+## Tech
+
+* [Hackerrank Problem Solving (Intermediate) Certificate Q2](posts_tech/2022-03-24-hkrk.md)
+* [Elvin's C Quiz](posts_tech/elvin-s-c-quiz.md)
+* [My Hackerrank Solution of *Swap Nodes [Algo]*](posts_tech/2021-03-17-hkrk.md)
+* [My Hackerrank Solution of *Square-Ten Tree*](posts_tech/2021-04-09-hkrk.md)
+* [Installation Guide of Arch Linux on Laptops for Deep Learning(NVIDIA)](posts_tech/2019-12-15-12.md)
+
 #### [小王](index_wang.md)
 
 #### [几首现代诗](index_mverse.md)
 
-#### [Tech Spot](index_tech.md)
-
 #### [几首当代诗（摘抄](contemporary/intro.md)
 
 #### [豆瓣和空间的备份](index_history.md)
+
+#### About
+
+Right now a compiler engineer living in Folsom, CA. I do code, write things and take photos for sometime.
+
+Add me on [Linkedin](https://www.linkedin.com/in/elvinw95) or follow me on [Instagram](https://www.instagram.com/e1vinwang).
