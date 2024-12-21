@@ -1,6 +1,8 @@
-# 酗酒天地1（烟台话）
+# to the world
 
-[![第一集](https://img.youtube.com/vi/pj_V-UC4QtY/0.jpg)](https://www.youtube.com/watch?v=pj_V-UC4QtY)
+*Maybe I'm just a bizarre little person who walks back and forth.* --- Terry A. Davis (1969 - 2018)
+
+I am NOT dead, I'm just getting my GitHub account back and becoming older and older. --- me (1990s -)
 
 
 ---
